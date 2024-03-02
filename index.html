@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanado</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/akar-icons-fonts"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-[#F9D9AA]">
+
+    <!-- Navbar -->
+    <main>
+        <nav class="container px-28">
+            <div class="py-3 mx-auto flex justify-between items-center">
+                <div>
+                    <a href="#">
+                        <img src="./assets/Images/logo.png" alt="Hanado" class="w-44 h-auto">
+                    </a>
+                </div>
+                <div>
+                    <ul class="flex gap-4 font-semibold">
+                        <li>
+                            <a href="#" class="text-[#FF902A] cursor-pointer">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="cursor-pointer">Our Product</a>
+                        </li>
+                        <li>
+                            <a href="#" class="cursor-pointer">Delivery</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="z-20">
+                    <form class="flex items-center relative gap-2" role="search">
+                        <input type="search"
+                            class="py-2 pl-10 border border-gray-300 rounded-full focus:outline-none focus:border-blue-500 placeholder-gray-500 placeholder-opacity-50"
+                            placeholder="Search...">
+                        <i class="ai-search absolute start-0 ps-3 text-lg"></i>
+                        <i class="ai-cart text-2xl"></i>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </main>
+    <!-- End Navbar -->
+
+    <!-- Opening -->
+    <main class="container mx-auto z-10">
+        <section class="flex justify-between items-center px-20" style="height: 90vh;">
+            <div class="absolute top-0 right-0 w-96">
+                <img src="./assets/Images/bg-hero.png" alt="">
+            </div>
+            <div class="w-96">
+                <h2 class="text-4xl font-bold text-[#2F2105] mb-5 leading-snug">Enjoy your <span
+                        class="text-[#FF902A]">coffee</span> before your activity</h2>
+                <p class="text-[#2F2105] mb-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam maiores molestiae amet ipsum
+                </p>
+                <div class="flex items-center gap-6">
+                    <button class="bg-[#2F2105] text-white px-8 py-2 rounded-full flex items-center gap-1.5">
+                        <span class="flex-1">Order Now</span>
+                        <span class="w-6 h-6 bg-[#FF902A] rounded-full grid place-items-center text-sm">
+                            <i class="ai-cart"></i>
+                        </span>
+                    </button>
+                    <button class="px-6 py-2 hover:text-[#FF902A] duration-300 transition-all">
+                        More menu
+                    </button>
+                </div>
+            </div>
+            <div class="relative cursor-default">
+                <div class="w-96 bg-[#2F2105] rounded-full h-96 flex justify-center items-center">
+                    <img src="./assets/Images/coffe-glass.png" alt="coffee" class="w-72 h-auto">
+                </div>
+                <div
+                    class="bg-white/50 w-max p-1.5 rounded-full absolute top-6 -left-8 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1">
+                    <p class="bg-white px-10 py-2 w-max rounded-full text-xl font-medium">Cappucino</p>
+                </div>
+                <div
+                    class="bg-white/50 w-max p-1.5 rounded-full absolute bottom-4 left-8 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1">
+                    <p class="bg-white px-10 py-2 w-max rounded-full text-xl font-medium">18K</p>
+                </div>
+                <div
+                    class="bg-white/50 w-max p-1.5 rounded-full absolute top-24 -right-4 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1">
+                    <p class="bg-white px-10 py-2 w-max rounded-full text-xl font-medium">4.8 <i
+                            class="fa-solid fa-star text-yellow-500" style="margin-top: 2px;"></i></p>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- End Opening -->
+
+    <!-- Testimonial -->
+    <section class="mt-24 bg-white h-screen flex items-center">
+        <div class="w-3/5 bg-yellow-400 rounded-r-3xl relative">
+            <div class="bg-cover" style="background-image: url(assets/Images/bg-aboutus.png);">
+                <div class="bg-white bg-opacity-80 px-16" style="padding-top: 10rem; padding-bottom: 10rem;">
+                    <h2 class="font-bold ms-5 text-2xl">What they say about us</h2>
+                    <h5 class="w-1/2 font-light ms-5">We always provide the best service and always maintain the quality
+                        of coffee</h5>
+                </div>
+                <div class="flex absolute top-8 gap-16" style="right: -30rem;">
+                    <!-- Testimonial 1 -->
+                    <div class="relative flex-grow-1 ms-5">
+                        <img src="assets/Images/testimonial-1.png" class="shadow-lg h-80">
+                        <div
+                            class="absolute bottom-0 -right-10 ms-5 mb-4 transition-all duration-300 hover:-translate-y-1 cursor-default">
+                            <div class="bg-yellow-400 border-0 p-2 shadow-lg" style="width: 180px;">
+                                <h6 class="text-sm">Naura</h6>
+                                <p class="text-xs">"I really love the cappuccino, the coffee was very smooth"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="relative flex-grow-1">
+                        <img src="assets/Images/testimonial-2.png" class="shadow-lg h-80">
+                        <div
+                            class="absolute bottom-0 -right-10 ms-5 mb-4 transition-all duration-300 hover:-translate-y-1 cursor-default">
+                            <div class="bg-yellow-400 border-0 p-2 shadow-lg" style="width: 180px;">
+                                <h6 class="text-sm">John</h6>
+                                <p class="text-xs">"This coffee shop is very convenient"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="relative flex-grow-1">
+                        <img src="assets/Images/testimonial-3.png" class="shadow-lg h-80">
+                        <div
+                            class="absolute bottom-0 -right-10 ms-5 mb-4 transition-all duration-300 hover:-translate-y-1 cursor-default">
+                            <div class="bg-yellow-400 border-0 p-2 shadow-lg" style="width: 180px;">
+                                <h6 class="text-sm">Azura</h6>
+                                <p class="text-xs">"The coffee menu here is very extensive"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Testimonial -->
+
+    <!-- Subscribe -->
+    <section class="bg-white h-screen flex items-center">
+        <div
+            class="container rounded-xl bg-[url(assets/Images/bg-newsletter.png)] py-24 bg-cover bg-no-repeat bg-center mx-auto px-2 w-4/5 relative">
+            <h1 class="text-center text-white text-3xl font-semibold">Subcribe to get 50% discount price</h1>
+            <form class="text-center pt-5">
+                <span class="relative">
+                    <input type="text" placeholder="Email Address"
+                        class="py-2 px-16 ps-3.5 border border-gray-300 rounded-full focus:outline-none focus:border-white placeholder-gray-500 placeholder-opacity-50">
+                    <button type="submit"
+                        class="absolute bg-green-700 rounded-full text-white py-1 px-2 -top-2 right-0 mt-1.5 mr-1 text-sm">Order
+                        Now</button>
+                </span>
+            </form>
+        </div>
+    </section>
+    <!-- End Subscribe -->
+</body>
+
+</html>
